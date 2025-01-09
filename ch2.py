@@ -5,7 +5,7 @@ def largest(nums):
       largest = num
   return largest
 
-# Sort the list approach
+
 def largest(nums):
   nums.sort()
   return nums[-1]
